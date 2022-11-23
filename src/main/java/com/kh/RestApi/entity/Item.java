@@ -6,6 +6,7 @@ import lombok.Setter;
 import lombok.ToString;
 
 import javax.persistence.*;
+import java.time.LocalDateTime;
 
 @Entity
 @Getter@Setter@ToString
@@ -27,4 +28,6 @@ public class Item {
     @Enumerated(EnumType.STRING)
 //    순서적인 효과..
     private ItemSellStatus itemSellStatus;
+    private LocalDateTime regTime; // 등록 시간
+    private LocalDateTime updateTime; // 수정시간
 }

@@ -28,7 +28,8 @@ public class Order {
 
 //    mappedBy 옵션은 주인이 아닌 쪽에 사용(주인이 반대편)
 //    부모 엔티티의 영속성 상태 변화를 자식 엔티티에 모두 전이
-    @OneToMany(mappedBy = "order", cascade = CascadeType.ALL)
+//    고아객체 제거..이게 먼데...
+    @OneToMany(mappedBy = "order", cascade = CascadeType.ALL, orphanRemoval = true)
     private List<OrderItem> orderItems = new ArrayList<>();
 
 
