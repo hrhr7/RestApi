@@ -1,0 +1,19 @@
+[2022-11-18 10:32:27.312] [INFO ] [main] com.kh.RestApi.dao.MemberRepositoryTest Starting MemberRepositoryTest using Java 11.0.15 on DESKTOP-LNUNBT3 with PID 13260 (started by user1 in D:\Backend\RestApi\RestApi)
+[2022-11-18 10:32:27.317] [INFO ] [main] com.kh.RestApi.dao.MemberRepositoryTest No active profile set, falling back to 1 default profile: "default"
+[2022-11-18 10:32:27.909] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2022-11-18 10:32:27.952] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 36 ms. Found 2 JPA repository interfaces.
+[2022-11-18 10:32:28.731] [INFO ] [main] org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+[2022-11-18 10:32:28.771] [INFO ] [main] org.hibernate.Version HHH000412: Hibernate ORM core version 5.6.12.Final
+[2022-11-18 10:32:28.901] [INFO ] [main] org.hibernate.annotations.common.Version HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2022-11-18 10:32:29.040] [INFO ] [main] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+[2022-11-18 10:32:29.049] [WARN ] [main] com.zaxxer.hikari.util.DriverDataSource Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+[2022-11-18 10:32:29.334] [INFO ] [main] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+[2022-11-18 10:32:29.361] [INFO ] [main] org.hibernate.dialect.Dialect HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+[2022-11-18 10:32:30.026] [INFO ] [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-11-18 10:32:30.036] [INFO ] [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2022-11-18 10:32:30.649] [WARN ] [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2022-11-18 10:32:31.023] [WARN ] [main] org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[2022-11-18 10:32:31.233] [INFO ] [main] com.kh.RestApi.dao.MemberRepositoryTest Started MemberRepositoryTest in 4.331 seconds (JVM running for 5.431)
+[2022-11-18 10:32:31.578] [INFO ] [SpringApplicationShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+[2022-11-18 10:32:31.582] [INFO ] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+[2022-11-18 10:32:31.602] [INFO ] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
